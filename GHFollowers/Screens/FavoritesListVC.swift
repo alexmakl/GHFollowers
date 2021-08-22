@@ -7,11 +7,20 @@
 
 import UIKit
 
-class FavoritesListViewController: UIViewController {
+class FavoritesListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         navigationController?.isNavigationBarHidden = false
+        
+        PersistenceManager.retrieveFavorites { result in
+            switch result {
+            case .success(let favorites):
+                print(favorites)
+            case.failure(let error):
+                break
+            }
+        }
     }
 }
