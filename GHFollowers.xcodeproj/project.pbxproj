@@ -12,6 +12,7 @@
 		D31BAB6D26D0E60D00B5726B /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BAB6C26D0E60D00B5726B /* GFRepoItemVC.swift */; };
 		D31BAB6F26D0E81C00B5726B /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BAB6E26D0E81C00B5726B /* GFFollowerItemVC.swift */; };
 		D31BAB7226D0EEE000B5726B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BAB7126D0EEE000B5726B /* Date+Ext.swift */; };
+		D3242D1326D6CBCC00715659 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242D1226D6CBCC00715659 /* UIView+Ext.swift */; };
 		D35DB47326BD764500A7741D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DB47226BD764500A7741D /* AppDelegate.swift */; };
 		D35DB47526BD764500A7741D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DB47426BD764500A7741D /* SceneDelegate.swift */; };
 		D35DB47C26BD764700A7741D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35DB47B26BD764700A7741D /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		D31BAB6C26D0E60D00B5726B /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		D31BAB6E26D0E81C00B5726B /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		D31BAB7126D0EEE000B5726B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		D3242D1226D6CBCC00715659 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		D35DB46F26BD764500A7741D /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35DB47226BD764500A7741D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D35DB47426BD764500A7741D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				D35DB4A526C151FB00A7741D /* UIViewController+Ext.swift */,
 				D31BAB7126D0EEE000B5726B /* Date+Ext.swift */,
+				D3242D1226D6CBCC00715659 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3242D1326D6CBCC00715659 /* UIView+Ext.swift in Sources */,
 				D366FFC526C1A36900D75FCB /* User.swift in Sources */,
 				D35DB49726C1152700A7741D /* GFTextField.swift in Sources */,
 				D35DB48B26BD7EDA00A7741D /* SearchVC.swift in Sources */,
